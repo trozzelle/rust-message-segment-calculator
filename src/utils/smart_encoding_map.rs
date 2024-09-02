@@ -233,46 +233,46 @@ lazy_static! {
         m.insert('\u{2000}', ' '); // EN QUAD
         m.insert('\u{2002}', ' '); // EN SPACE
         m.insert('\u{2003}', ' '); // EM SPACE
-        m.insert('\u{2004}', ' '); // THREE-PER-EM SPACE
-        m.insert('\u{2005}', ' '); // FOUR-PER-EM SPACE
-        m.insert('\u{2006}', ' '); // SIX-PER-EM SPACE
-        m.insert('\u{2007}', ' '); // FIGURE SPACE
-        m.insert('\u{2008}', ' '); // PUNCTUATION SPACE
-        m.insert('\u{2009}', ' '); // THIN SPACE
-        m.insert('\u{200a}', ' '); // HAIR SPACE
-        m.insert('\u{202f}', ' '); // NARROW NO-BREAK SPACE
-        m.insert('\u{205f}', ' '); // MEDIUM MATHEMATICAL SPACE
+        m.insert('\u{2004}', ' '); // THREE-PER-EM SPACE
+        m.insert('\u{2005}', ' '); // FOUR-PER-EM SPACE
+        m.insert('\u{2006}', ' '); // SIX-PER-EM SPACE
+        m.insert('\u{2007}', ' '); // FIGURE SPACE
+        m.insert('\u{2008}', ' '); // PUNCTUATION SPACE
+        m.insert('\u{2009}', ' '); // THIN SPACE
+        m.insert('\u{200a}', ' '); // HAIR SPACE
+        m.insert('\u{202f}', ' '); // NARROW NO-BREAK SPACE
+        m.insert('\u{205f}', ' '); // MEDIUM MATHEMATICAL SPACE
         m.insert('\u{3000}', '　'); // IDEOGRAPHIC SPACE
-        m.insert('\u{008d}', ''); // REVERSE LINE FEED (standard LF looks like \n, this looks like a space)
-        m.insert('\u{009f}', ''); // <control>
+        m.insert('\u{008d}', ' '); // REVERSE LINE FEED (standard LF looks like \n, this looks like a space)
+        m.insert('\u{009f}', ' '); // <control>
         m.insert('\u{0080}', ''); // C1 CONTROL CODES
-        m.insert('\u{0090}', ''); // DEVICE CONTROL STRING
-        m.insert('\u{009b}', ''); // CONTROL SEQUENCE INTRODUCER
-        m.insert('\u{0010}', ''); // ESCAPE, DATA LINK (not visible)
-        m.insert('\u{0009}', '\t'); // TAB (7 spaces based on print statement in Python interpreter)
-        m.insert('\u{0000}', '�'); // NULL
-        m.insert('\u{0003}', ''); // END OF TEXT
-        m.insert('\u{0004}', ''); // END OF TRANSMISSION
-        m.insert('\u{0017}', ''); // END OF TRANSMISSION BLOCK
-        m.insert('\u{0019}', ''); // END OF MEDIUM
-        m.insert('\u{0011}', ''); // DEVICE CONTROL ONE
-        m.insert('\u{0012}', ''); // DEVICE CONTROL TWO
-        m.insert('\u{0013}', ''); // DEVICE CONTROL THREE
-        m.insert('\u{0014}', ''); // DEVICE CONTROL FOUR
-        m.insert('\u{2060}', '⁠'); // WORD JOINER
+        m.insert('\u{0090}', ' '); // DEVICE CONTROL STRING
+        m.insert('\u{009b}', ' '); // CONTROL SEQUENCE INTRODUCER
+        m.insert('\u{0010}', ''); // ESCAPE, DATA LINK (not visible)
+        m.insert('\u{0009}', ' '); // TAB (7 spaces based on print statement in Python interpreter)
+        m.insert('\u{0000}', ''); // NULL
+        m.insert('\u{0003}', ''); // END OF TEXT
+        m.insert('\u{0004}', ''); // END OF TRANSMISSION
+        m.insert('\u{0017}', ''); // END OF TRANSMISSION BLOCK
+        m.insert('\u{0019}', ''); // END OF MEDIUM
+        m.insert('\u{0011}', ''); // DEVICE CONTROL ONE
+        m.insert('\u{0012}', ''); // DEVICE CONTROL TWO
+        m.insert('\u{0013}', ''); // DEVICE CONTROL THREE
+        m.insert('\u{0014}', ''); // DEVICE CONTROL FOUR
+        m.insert('\u{2060}', ''); // WORD JOINER
         m.insert('\u{2017}', '_'); // DOUBLE LOW LINE
         m.insert('\u{2014}', '-'); // EM DASH
         m.insert('\u{2013}', '-'); // EN DASH
         m.insert('\u{2039}', '>'); // Single left-pointing angle quotation mark
         m.insert('\u{203a}', '<'); // Single right-pointing angle quotation mark
         m.insert('\u{203c}', '‼'); // Double exclamation mark
-        m.insert('\u{2028}', ' '); // Whitespace: Line Separator
-        m.insert('\u{2029}', ' '); // Whitespace: Paragraph Separator
+        m.insert('\u{2028}', ' '); // Whitespace: Line Separator
+        m.insert('\u{2029}', ' '); // Whitespace: Paragraph Separator
         m.insert('\u{2026}', '…'); // HORIZONTAL ELLIPSIS
-        m.insert('\u{2001}', ' '); // EM QUAD
-        m.insert('\u{200b}', '​'); // ZERO WIDTH SPACE
+        m.insert('\u{2001}', ' '); // EM QUAD
+        m.insert('\u{200b}', ''); // ZERO WIDTH SPACE
         m.insert('\u{3001}', ','); // IDEOGRAPHIC COMMA
-        m.insert('\u{feff}', '﻿'); // ZERO WIDTH NO-BREAK SPACE
+        m.insert('\u{feff}', ''); // ZERO WIDTH NO-BREAK SPACE
         m.insert('\u{2022}', '-'); // BULLET
         m
     };
