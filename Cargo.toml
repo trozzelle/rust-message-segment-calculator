@@ -1,0 +1,26 @@
+[package]
+name = "message_segment_calculator"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = [
+    "Torin Rozzelle <hello@torinrozzelle.com>"
+]
+description = "Utility package to calculate SMS message segments."
+readme = "README.md"
+
+[lib]
+name = "message_segment_calculator"
+path = "src/lib.rs"
+
+[[bin]]
+name = "calculate_message_segments"
+path = "src/main.rs"
+
+[dependencies]
+unicode-normalization = "0.1.19"
+unicode-segmentation = "1.11.0"
+lazy_static = "1.5.0"
+
+[dev-dependencies]
+pretty_assertions = "1.3.0"
